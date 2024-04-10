@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.great span{
+    background:-webkit-linear-gradient(16deg, #4b900f, #ff5566);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent !important;
+}
